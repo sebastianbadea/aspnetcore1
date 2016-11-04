@@ -36,3 +36,8 @@ textarea {
     display: none
   }
 }
+.jumbotron {
+    background-image: url('../images/runners.jpg');
+    background-size: cover;
+    color: #fff;
+}
