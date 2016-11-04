@@ -2,6 +2,7 @@
 /// <reference path="app/app.config.js" />
 /// <reference path="app/app.module.js" />
 /// <reference path="app/home.controller.js" />
+/// <reference path="app/runners.controller.js" />
 /// <reference path="js/app.min.js" />
 /// <reference path="lib/angular/angular.js" />
 /// <reference path="lib/angular/angular.min.js" />

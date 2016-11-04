@@ -55,6 +55,8 @@ namespace Web
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                //redirect for bad requests to default action
+                routes.MapRoute("spa-routes", "{*anything}", new { controller = "Home", action = "Index"});
             });
         }
     }

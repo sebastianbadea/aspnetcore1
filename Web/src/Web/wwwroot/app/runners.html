@@ -1,0 +1,27 @@
+﻿<div class="container">
+    <h2>Runners</h2>
+    <hr />
+    <div class="panel panel-default">
+        <div class="panel-heading">A list of runners</div>
+        <div class="panel-body">
+            <table class="table table-responsive table-hover table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <td>First name</td>
+                        <td>Last name</td>
+                        <td>Age</td>
+                        <td>Favorite beer</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="runner in vm.runners">
+                        <td>{{runner.firstName}}</td>
+                        <td>{{runner.lastName}}</td>
+                        <td>{{runner.age}}</td>
+                        <td>{{runner.favoriteBeer}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
